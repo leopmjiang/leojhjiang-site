@@ -258,3 +258,4 @@ export const experienceGroups = [
 export type ExperienceGroup = (typeof experienceGroups)[number];
 export type ExperienceRole = ExperienceGroup["roles"][number];
 export type Skill = ExperienceRole["skills"][number];
+
