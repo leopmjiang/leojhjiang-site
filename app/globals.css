@@ -35,6 +35,20 @@ h3 { font-size: 1.15rem; line-height: 1.22; }
 ul { padding-left: 1.05rem; color: var(--muted); line-height: 1.65; font-size: 0.94rem; }
 
 .site-shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; padding: 22px 0 56px; }
+.skip-link {
+  position: absolute;
+  left: 14px;
+  top: -40px;
+  z-index: 30;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--orange);
+  color: #211005;
+  font-weight: 600;
+}
+.skip-link:focus {
+  top: 10px;
+}
 .nav-wrap {
   position: sticky; top: 18px; z-index: 10;
   display: flex; align-items: center; justify-content: space-between; gap: 18px;

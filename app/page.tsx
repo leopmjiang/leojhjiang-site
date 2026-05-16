@@ -101,8 +101,30 @@ const capabilityIcons: Record<string, React.ReactNode> = {
 };
 
 export default function Home() {
+  const personStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Leo Jiang",
+    jobTitle: "Senior Product Manager",
+    email: "mailto:leo.jh.jiang@gmail.com",
+    url: "https://leojhjiang.com",
+    sameAs: ["https://www.linkedin.com/in/leojhjiang/"],
+    knowsAbout: [
+      "Product strategy",
+      "Enterprise SaaS",
+      "AI-enabled workflows",
+      "Simulation systems",
+      "Operational platforms",
+    ],
+  };
+
   return (
     <main className="site-shell">
+      <a className="skip-link" href="#main-content">Skip to main content</a>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personStructuredData) }}
+      />
       <nav className="nav-wrap" aria-label="Main navigation">
         <a className="brand" href="#top" aria-label="Leo Jiang home">
           <img src="/images/leo-logo.jpg" alt="Leo Jiang logo" />
@@ -141,7 +163,7 @@ export default function Home() {
         </aside>
       </section>
 
-      <section className="metrics-grid" aria-label="Career metrics">
+      <section id="main-content" className="metrics-grid" aria-label="Career metrics">
         {metrics.map((item) => (
           <div className="metric-card" key={item.label}>
             <strong>{item.value}</strong>
