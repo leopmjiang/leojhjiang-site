@@ -1,13 +1,36 @@
 export const contact = {
-  email: "hello@example.com",
-  linkedin: "https://www.linkedin.com",
+  email: "leo.jh.jiang@gmail.com",
+  linkedin: "https://www.linkedin.com/in/leojhjiang/",
 };
+
+export const hero = {
+  eyebrow: "Senior Product Manager · Enterprise SaaS · Technical Platforms",
+  title: "I build product clarity for complex, data-driven platforms.",
+  summary:
+    "I’m Leo Jiang, a product manager with 8+ years leading enterprise SaaS products, simulation workflows, operational platforms, and cross-functional delivery from discovery to release.",
+  positioning: "Technical Product Manager for complex operational platforms",
+  bestFit:
+    "Best fit: platform PM, technical PM, senior product manager, or product owner for enterprise workflow products.",
+};
+
+export const metrics = [
+  { value: "8+", label: "years in product" },
+  { value: "100+", label: "enterprise operations supported" },
+  { value: "15+", label: "interconnected apps owned" },
+  { value: "4,000+", label: "tickets reduced into focus" },
+];
+
+export const proofPoints = [
+  "Built PM operating models where none existed, turning fragmented execution into structured roadmap delivery.",
+  "Owned platform decisions across simulation, AI/ML workflows, real-time operations, data ingestion, and analytics.",
+  "Led cross-functional delivery across engineering, data science, QA, support, customer success, and executive stakeholders.",
+];
 
 export const operatingSystem = [
   "Customer Discovery",
   "Roadmap Strategy",
   "UX Prototyping",
-  "Technical Tradeoffs",
+  "Technical Trade-offs",
   "Delivery Alignment",
   "Outcome Measurement",
 ];
@@ -16,44 +39,74 @@ export const strengths = [
   {
     title: "Product Strategy",
     detail:
-      "Turning ambiguous business goals into clear product direction, tradeoffs, and execution plans.",
+      "Roadmaps, sequencing, MVP definition, prioritization, and trade-off decisions under real delivery pressure.",
   },
   {
-    title: "Complex Systems",
+    title: "Technical Product Fluency",
     detail:
-      "Experience with operational platforms, simulation workflows, data-heavy products, and multi-user environments.",
+      "Data-intensive platforms, simulation systems, AI-enabled workflows, integrations, and complex operational constraints.",
   },
   {
-    title: "Execution Discipline",
+    title: "Execution Leadership",
     detail:
-      "Roadmaps, backlog structure, prioritization, release planning, and cross-functional alignment.",
+      "Backlog governance, release planning, acceptance standards, QA alignment, and multi-team dependency management.",
   },
   {
-    title: "UX & Discovery",
+    title: "UX for Complexity",
     detail:
-      "Prototype-first product development grounded in customer workflows and real operational constraints.",
+      "Wireframes, workflow modelling, progressive disclosure, and interfaces that make technical choices easier to understand.",
   },
 ];
 
 export const caseStudies = [
   {
-    label: "Simulation Platform",
-    title: "Helping operators evaluate what-if scenarios before execution",
+    label: "Simulation platform",
+    title: "From prototype to production-ready product",
     outcome:
-      "Converted complex operational workflows into a structured simulation product experience.",
+      "Reduced a 2,000+ item backlog to roughly 100 prioritized items and introduced release discipline across a previously unstructured product organization.",
+    details: [
+      "Roadmap ownership across 7 to 10 quarterly initiatives.",
+      "Requirements, epic structure, acceptance standards, and release planning.",
+      "Beta feedback loops with enterprise mining customers.",
+    ],
   },
   {
-    label: "Roadmap Discipline",
-    title: "Balancing customer commitments, platform work, and delivery capacity",
+    label: "Execution speed",
+    title: "Made simulation trade-offs visible and usable",
     outcome:
-      "Improved focus by translating broad demand into clear themes, initiatives, and delivery priorities.",
+      "Reframed simulation execution around speed, fidelity, and decision confidence so users could get answers faster without hiding technical trade-offs.",
+    details: [
+      "KPI-only, reduced-fidelity, and high-fidelity execution paths.",
+      "Clear user-facing trade-offs between speed and diagnostic depth.",
+      "Advanced complexity reserved for power users.",
+    ],
   },
   {
-    label: "Workflow UX",
-    title: "Designing tools for users working in constrained operational environments",
+    label: "Enterprise platform",
+    title: "Scaled FMS roadmap across global operations",
     outcome:
-      "Used prototypes, SME feedback, and customer validation to reduce ambiguity before development.",
+      "Owned roadmap and release planning for a real-time fleet management platform spanning 15+ applications and 100+ mining operations worldwide.",
+    details: [
+      "Delivery coordination across 4 engineering teams.",
+      "On-site discovery with dispatch, maintenance, and operator workflows.",
+      "Executive visibility into risk, dependencies, and release health.",
+    ],
   },
+];
+
+export const tools = [
+  { name: "Jira", logo: "https://cdn.simpleicons.org/jira" },
+  { name: "Confluence", logo: "https://cdn.simpleicons.org/confluence" },
+  { name: "Figma", logo: "https://cdn.simpleicons.org/figma" },
+  { name: "Miro", logo: "https://cdn.simpleicons.org/miro" },
+  { name: "SQL", fallback: "SQL" },
+  { name: "Power BI", logo: "/logos/powerbi.svg" },
+  { name: "Tableau", logo: "/logos/tableau.svg" },
+  { name: "Aha!", logo: "/logos/aha.svg" },
+  { name: "ProductPlan", fallback: "PP" },
+  { name: "Streamlit", logo: "https://cdn.simpleicons.org/streamlit" },
+  { name: "Python", logo: "https://cdn.simpleicons.org/python" },
+  { name: "Draw.io", logo: "https://cdn.simpleicons.org/diagramsdotnet" },
 ];
 
 export const experienceGroups = [
@@ -94,7 +147,7 @@ export const experienceGroups = [
           { name: "Roadmap prioritization", score: 9 },
           { name: "Customer discovery", score: 8 },
           { name: "UX workflow design", score: 8 },
-          { name: "Technical tradeoff analysis", score: 8 },
+          { name: "Technical trade-off analysis", score: 8 },
           { name: "Stakeholder alignment", score: 9 },
         ],
       },
@@ -108,8 +161,7 @@ export const experienceGroups = [
         products: [
           {
             name: "Fleet Management System",
-            audience:
-              "Dispatchers, operators, maintenance teams, and mine operations",
+            audience: "Dispatchers, operators, maintenance teams, and mine operations",
             summary:
               "Managed roadmap and backlog priorities for operational workflows used across active mine sites.",
           },
@@ -189,7 +241,7 @@ export const experienceGroups = [
             name: "Technical Foundations",
             audience: "Product and engineering teams",
             summary:
-              "Built hands-on experience that supports stronger technical conversations and better product tradeoff decisions.",
+              "Built hands-on experience that supports stronger technical conversations and better product trade-off decisions.",
           },
         ],
         skills: [
@@ -255,6 +307,7 @@ export const experienceGroups = [
   },
 ];
 
+export type Tool = (typeof tools)[number];
 export type ExperienceGroup = (typeof experienceGroups)[number];
 export type ExperienceRole = ExperienceGroup["roles"][number];
 export type Skill = ExperienceRole["skills"][number];

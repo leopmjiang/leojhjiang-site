@@ -1,26 +1,22 @@
-import { operatingSystem } from "@/data/portfolio";
+import { hero, operatingSystem } from "@/data/portfolio";
 import { Card, Eyebrow, PrimaryLink, SecondaryLink } from "./ui";
 
 export function Hero() {
   return (
     <section
       id="top"
-      className="mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-6 pb-20 pt-32 lg:px-8"
+      className="mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-6 pb-16 pt-32 lg:px-8"
     >
-      <div className="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+      <div className="grid gap-12 lg:grid-cols-[1.08fr_0.92fr] lg:items-center">
         <div>
-          <Eyebrow>
-            Product Manager · Complex Systems · AI Simulation · Enterprise SaaS
-          </Eyebrow>
+          <Eyebrow>{hero.eyebrow}</Eyebrow>
 
-          <h1 className="max-w-4xl text-5xl font-semibold tracking-tight text-white sm:text-6xl lg:text-7xl">
-            I build product clarity for complex, data-driven platforms.
+          <h1 className="max-w-4xl text-4xl font-semibold tracking-[-0.045em] text-white sm:text-5xl lg:text-6xl">
+            {hero.title}
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-neutral-300">
-            I’m Leo Jiang, a product manager with experience leading enterprise
-            SaaS products, simulation workflows, operational platforms, and
-            cross-functional delivery from discovery to release.
+            {hero.summary}
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -29,17 +25,30 @@ export function Hero() {
           </div>
         </div>
 
-        <Card className="p-5 shadow-2xl shadow-black/40 backdrop-blur">
-          <div className="mb-5 flex items-center justify-between">
-            <span className="text-sm text-neutral-400">
-              Product Operating System
-            </span>
-            <span className="rounded-full bg-green-400/10 px-3 py-1 text-xs font-medium text-green-300">
-              Available now
-            </span>
+        <Card className="overflow-hidden p-5 shadow-2xl shadow-black/40 backdrop-blur">
+          <div className="grid gap-5 sm:grid-cols-[0.9fr_1.1fr] lg:grid-cols-1">
+            <div className="rounded-[2rem] border border-orange-400/20 bg-orange-400/10 p-3">
+              <img
+                src="/images/leo-headshot.jpeg"
+                alt="Headshot of Leo Jiang"
+                className="aspect-square w-full rounded-[1.5rem] object-cover"
+              />
+            </div>
+
+            <div className="rounded-[2rem] border border-white/10 bg-neutral-950/70 p-5">
+              <span className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-300">
+                Current positioning
+              </span>
+              <h2 className="mt-3 text-xl font-semibold leading-7 text-white">
+                {hero.positioning}
+              </h2>
+              <p className="mt-3 text-sm leading-6 text-neutral-400">
+                {hero.bestFit}
+              </p>
+            </div>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2">
+          <div className="mt-5 grid gap-3 sm:grid-cols-2">
             {operatingSystem.map((item, index) => (
               <div
                 key={item}
