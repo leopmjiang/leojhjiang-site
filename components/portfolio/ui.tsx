@@ -3,12 +3,20 @@ import type { ReactNode } from "react";
 export function Section({
   children,
   id,
+  className = "",
+  ariaLabel,
 }: {
   children: ReactNode;
   id?: string;
+  className?: string;
+  ariaLabel?: string;
 }) {
   return (
-    <section id={id} className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+    <section
+      id={id}
+      aria-label={ariaLabel}
+      className={`mx-auto max-w-7xl px-6 py-20 lg:px-8 ${className}`}
+    >
       {children}
     </section>
   );
@@ -106,9 +114,13 @@ export function SecondaryLink({
   href: string;
   children: ReactNode;
 }) {
+  const isExternal = href.startsWith("http");
+
   return (
     <a
       href={href}
+      target={isExternal ? "_blank" : undefined}
+      rel={isExternal ? "noreferrer" : undefined}
       className="rounded-2xl border border-white/15 px-6 py-3 text-sm font-semibold text-white transition hover:border-orange-300 hover:text-orange-200"
     >
       {children}

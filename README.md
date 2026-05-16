@@ -1,6 +1,6 @@
-# Leo Portfolio, Lexful-Inspired V2
+# Leo Jiang Portfolio Site
 
-This is a full runnable Next.js package with the portfolio redesign, toned-down typography, softer weights, and included image assets.
+Refactored Next.js portfolio site.
 
 ## Run locally
 
@@ -9,21 +9,18 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000
+Open http://localhost:3000.
 
-## Deploy
+## Build check
 
 ```bash
-git add .
-git commit -m "Portfolio redesign v2"
-git push
+npm run build
 ```
 
-Vercel will deploy from the connected repository.
+## Refactor notes
 
-## Notes
-
-- Logo: `public/images/leo-logo.jpg`
-- Headshot: `public/images/leo-headshot.jpeg`
-- Main page: `app/page.tsx`
-- Styling: `app/globals.css`
+- `app/page.tsx` is now a composition layer only.
+- Portfolio content lives in `data/portfolio.ts`.
+- Reusable sections live in `components/portfolio`.
+- `tsconfig.json` includes `@/*` path aliases so Vercel can resolve imports like `@/data/portfolio`.
+- `node_modules`, `.next`, `.git`, and Mac metadata are intentionally excluded from the deliverable zip.
