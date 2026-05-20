@@ -7,7 +7,6 @@ import { ProofSection } from "@/components/portfolio/ProofSection";
 import { SiteHeader } from "@/components/portfolio/SiteHeader";
 import { StrengthsSection } from "@/components/portfolio/StrengthsSection";
 import { ToolbeltSection } from "@/components/portfolio/ToolbeltSection";
-import { WhatIBuildSection } from "@/components/portfolio/WhatIBuildSection";
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
       <SiteHeader />
       <Hero />
       <MetricsSection />
-      <WhatIBuildSection />
       <ProofSection />
       <CaseStudiesSection />
       <StrengthsSection />

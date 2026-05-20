@@ -21,7 +21,6 @@ export function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <PrimaryLink href="#case-studies">View Product Work</PrimaryLink>
-            <SecondaryLink href="#builder-lab-preview">Explore Builder Lab</SecondaryLink>
             <SecondaryLink href="#start-conversation">Start a Conversation</SecondaryLink>
           </div>
         </div>

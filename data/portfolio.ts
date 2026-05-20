@@ -1,5 +1,5 @@
 export const contact = {
-  email: "leo.jh.jiang@gmail.com",
+  email: "leo.pm.jiang@gmail.com",
   linkedin: "https://www.linkedin.com/in/leojhjiang/",
 };
 
@@ -13,33 +13,6 @@ export const hero = {
     "Best fit: platform PM, technical PM, senior product manager, or product owner who can lead product judgment and build-oriented experimentation.",
 };
 
-
-export const whatIBuild = [
-  {
-    title: "Enterprise Products",
-    detail: "Simulation platforms, operational workflows, roadmap systems, analytics, and decision-support tools for complex environments.",
-  },
-  {
-    title: "Builder Lab",
-    detail: "Side projects, prototypes, integrations, dashboards, and tools built to explore real problems quickly.",
-  },
-  {
-    title: "Games & Experiments",
-    detail: "Product-themed game concepts and interaction experiments that turn product thinking into playable systems.",
-  },
-  {
-    title: "Field Notes",
-    detail: "Travel, hobbies, and creative observations that sharpen how I think about people, systems, and design.",
-  },
-];
-
-export const labHighlights = [
-  "Sold-price tracker MVP for fast market signal checks.",
-  "Jira Service Management contact-flow integration concept.",
-  "Roadmap Runner game prototype for prioritization trade-off thinking.",
-  "CSV-to-dashboard and workflow visualization experiments.",
-];
-
 export const metrics = [
   { value: "8+", label: "years in product" },
   { value: "100+", label: "enterprise operations supported" },
@@ -48,9 +21,9 @@ export const metrics = [
 ];
 
 export const proofPoints = [
-  "Built PM operating models where none existed, turning fragmented execution into structured roadmap delivery.",
-  "Owned platform decisions across simulation, AI/ML workflows, real-time operations, data ingestion, and analytics.",
-  "Led cross-functional delivery across engineering, data science, QA, support, customer success, and executive stakeholders.",
+  "Built PM structure from scratch at Stream Systems — took a 2,000+ item backlog to ~100 prioritized items and introduced release discipline where none had existed.",
+  "Owned the full product surface across simulation, AI/ML workflows, real-time fleet operations, data ingestion, and analytics at two enterprise mining software companies.",
+  "Coordinated delivery across engineering, data science, QA, customer success, and C-suite over 8+ years — at companies where product and engineering had to build the process together.",
 ];
 
 export const operatingSystem = [
@@ -101,7 +74,7 @@ export const caseStudies = [
     label: "Execution speed",
     title: "Made simulation trade-offs visible and usable",
     outcome:
-      "Reframed simulation execution around speed, fidelity, and decision confidence so users could get answers faster without hiding technical trade-offs.",
+      "Gave users three execution paths — KPI-only, reduced-fidelity, and full-fidelity — so they could balance speed against diagnostic depth without losing confidence in what the results meant.",
     details: [
       "KPI-only, reduced-fidelity, and high-fidelity execution paths.",
       "Clear user-facing trade-offs between speed and diagnostic depth.",
@@ -112,7 +85,7 @@ export const caseStudies = [
     label: "Enterprise platform",
     title: "Scaled FMS roadmap across global operations",
     outcome:
-      "Owned roadmap and release planning for a real-time fleet management platform spanning 15+ applications and 100+ mining operations worldwide.",
+      "Maintained roadmap and delivery health across 15+ interconnected apps and 4 engineering teams — keeping 100+ active mining operations unblocked while balancing new features against platform stability.",
     details: [
       "Delivery coordination across 4 engineering teams.",
       "On-site discovery with dispatch, maintenance, and operator workflows.",
@@ -182,7 +155,7 @@ export const experienceGroups = [
         id: "wenco-pm-po",
         company: "Wenco International Mining Systems",
         role: "Product Manager / Product Owner",
-        period: "2017–2023",
+        period: "2018–2023",
         description:
           "Owned product roadmaps and agile backlogs across enterprise fleet management products used by mining operations globally.",
         products: [
@@ -277,57 +250,6 @@ export const experienceGroups = [
           { name: "Technical analysis", score: 7 },
           { name: "Debugging", score: 7 },
           { name: "Implementation thinking", score: 8 },
-        ],
-      },
-    ],
-  },
-  {
-    group: "Other Experience",
-    description:
-      "Customer-facing roles that strengthened communication, service mindset, and real-time prioritization.",
-    roles: [
-      {
-        id: "guess-sales",
-        company: "GUESS",
-        role: "Sales Associate",
-        period: "Earlier role",
-        description:
-          "Developed customer-facing communication, active listening, and service skills in a fast-paced retail environment.",
-        products: [
-          {
-            name: "Customer Service & Sales",
-            audience: "Retail customers",
-            summary:
-              "Helped customers identify products, handled questions, and supported a positive in-store experience.",
-          },
-        ],
-        skills: [
-          { name: "Customer communication", score: 9 },
-          { name: "Active listening", score: 8 },
-          { name: "Service mindset", score: 9 },
-          { name: "Prioritization", score: 7 },
-        ],
-      },
-      {
-        id: "starbucks-barista",
-        company: "Starbucks",
-        role: "Barista",
-        period: "Earlier role",
-        description:
-          "Built speed, consistency, teamwork, and customer service habits in a high-volume operating environment.",
-        products: [
-          {
-            name: "High-Volume Service Operations",
-            audience: "Customers and store team",
-            summary:
-              "Balanced quality, speed, service, and teamwork during daily store operations.",
-          },
-        ],
-        skills: [
-          { name: "Teamwork", score: 9 },
-          { name: "Customer service", score: 9 },
-          { name: "Operating under pressure", score: 8 },
-          { name: "Process consistency", score: 8 },
         ],
       },
     ],
