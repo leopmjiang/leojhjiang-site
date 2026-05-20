@@ -4,26 +4,26 @@ export const contact = {
 };
 
 export const hero = {
-  eyebrow: "Senior Product Manager · Enterprise SaaS · Technical Platforms",
-  title: "I build product clarity for complex, data-driven platforms.",
+  eyebrow: "Senior Product Manager · Platform PM · Enterprise B2B SaaS",
+  title: "I build product clarity for complex operational platforms.",
   summary:
-    "I’m Leo Jiang, a product manager with 8+ years leading enterprise SaaS products, simulation workflows, operational platforms, and cross-functional delivery from discovery to release.",
-  positioning: "Technical Product Manager for complex operational platforms",
+    "I’m Leo Jiang, a product manager with 8+ years building enterprise B2B SaaS, AI simulation platforms, and mission-critical operational systems — from discovery to production, across engineering, data science, QA, and customer teams.",
+  positioning: "Platform PM for technically complex, data-intensive systems",
   bestFit:
-    "Best fit: platform PM, technical PM, senior product manager, or product owner for enterprise workflow products.",
+    "Best fit: platform PM, senior product manager, technical PM, or product owner for enterprise SaaS, operational workflow, or data-intensive products.",
 };
 
 export const metrics = [
   { value: "8+", label: "years in product" },
   { value: "100+", label: "enterprise operations supported" },
   { value: "15+", label: "interconnected apps owned" },
-  { value: "4,000+", label: "tickets reduced into focus" },
+  { value: "6,000+", label: "tickets cleared across roles" },
 ];
 
 export const proofPoints = [
-  "Built PM operating models where none existed, turning fragmented execution into structured roadmap delivery.",
-  "Owned platform decisions across simulation, AI/ML workflows, real-time operations, data ingestion, and analytics.",
-  "Led cross-functional delivery across engineering, data science, QA, support, customer success, and executive stakeholders.",
+  "Reduced 2,000+ tickets to ~100 at Stream Systems and 4,000+ to under 500 within 6 months at Wenco — value-based prioritization, from scratch, at both companies.",
+  "Owned roadmap and delivery for enterprise platforms actively used by 100+ mining operations worldwide across 15+ interconnected applications.",
+  "Built PM operating models where none existed — first structured PM at Stream Systems, and drove execution standardization across Wenco's multi-team product org.",
 ];
 
 export const operatingSystem = [
@@ -44,17 +44,17 @@ export const strengths = [
   {
     title: "Technical Product Fluency",
     detail:
-      "Data-intensive platforms, simulation systems, AI-enabled workflows, integrations, and complex operational constraints.",
+      "Data-intensive platforms, simulation systems, AI-enabled workflows, integrations, and complex operational constraints. Daily AI tooling user — prototyping, documentation, and problem-framing.",
   },
   {
     title: "Execution Leadership",
     detail:
-      "Backlog governance, release planning, acceptance standards, QA alignment, and multi-team dependency management.",
+      "Backlog governance, release planning, acceptance standards, QA alignment, and multi-team dependency management across up to 4 concurrent engineering teams.",
   },
   {
     title: "UX for Complexity",
     detail:
-      "Wireframes, workflow modelling, progressive disclosure, and interfaces that make technical choices easier to understand.",
+      "Wireframes, workflow modelling, progressive disclosure, and interfaces that make technical trade-offs easier for non-technical users to understand and act on.",
   },
 ];
 
@@ -63,31 +63,31 @@ export const caseStudies = [
     label: "Simulation platform",
     title: "From prototype to production-ready product",
     outcome:
-      "Reduced a 2,000+ item backlog to roughly 100 prioritized items and introduced release discipline across a previously unstructured product organization.",
+      "Joined Stream Systems as the first structured PM with a 2,000+ ticket backlog and no established process. Cut the backlog to ~100 prioritized items and built the full PM operating model — requirements templates, epic structure, prioritization criteria, release planning, and acceptance standards — from scratch.",
     details: [
-      "Roadmap ownership across 7 to 10 quarterly initiatives.",
-      "Requirements, epic structure, acceptance standards, and release planning.",
-      "Beta feedback loops with enterprise mining customers.",
+      "Roadmap ownership across 7–10 concurrent quarterly initiatives.",
+      "Led beta programs with enterprise mining customers to validate real-world workflows before GA.",
+      "Shifted team from reactive execution to roadmap-driven, predictable release cadence.",
     ],
   },
   {
-    label: "Execution speed",
-    title: "Made simulation trade-offs visible and usable",
+    label: "AI-accelerated delivery",
+    title: "Used AI tooling to compress product cycle time",
     outcome:
-      "Reframed simulation execution around speed, fidelity, and decision confidence so users could get answers faster without hiding technical trade-offs.",
+      "Integrated AI tools into daily product workflow to build rapid prototypes, sharpen problem statements, and accelerate documentation — saving an estimated 2–3 hours per day across the product cycle.",
     details: [
-      "KPI-only, reduced-fidelity, and high-fidelity execution paths.",
-      "Clear user-facing trade-offs between speed and diagnostic depth.",
-      "Advanced complexity reserved for power users.",
+      "AI-assisted prototyping to validate ideas before engineering investment.",
+      "Faster requirement drafting, user story generation, and release documentation.",
+      "Maintained engineering alignment with clearer, faster problem framing.",
     ],
   },
   {
     label: "Enterprise platform",
     title: "Scaled FMS roadmap across global operations",
     outcome:
-      "Owned roadmap and release planning for a real-time fleet management platform spanning 15+ applications and 100+ mining operations worldwide.",
+      "Owned roadmap and release planning for a real-time fleet management platform spanning 15+ applications and 100+ mining operations worldwide, sustaining 8 minor releases and 1 major release per year.",
     details: [
-      "Delivery coordination across 4 engineering teams.",
+      "Delivery coordination across 4 engineering teams (~20+ engineers).",
       "On-site discovery with dispatch, maintenance, and operator workflows.",
       "Executive visibility into risk, dependencies, and release health.",
     ],
@@ -97,16 +97,22 @@ export const caseStudies = [
 export const tools = [
   { name: "Jira", logo: "https://cdn.simpleicons.org/jira" },
   { name: "Confluence", logo: "https://cdn.simpleicons.org/confluence" },
+  { name: "Aha!", logo: "/logos/aha.svg" },
+  { name: "ProductPlan", fallback: "PP" },
   { name: "Figma", logo: "https://cdn.simpleicons.org/figma" },
   { name: "Miro", logo: "https://cdn.simpleicons.org/miro" },
+  { name: "Draw.io", logo: "https://cdn.simpleicons.org/diagramsdotnet" },
+  { name: "Microsoft Clarity", logo: "https://cdn.simpleicons.org/microsoftclarity" },
   { name: "SQL", fallback: "SQL" },
   { name: "Power BI", logo: "/logos/powerbi.svg" },
   { name: "Tableau", logo: "/logos/tableau.svg" },
-  { name: "Aha!", logo: "/logos/aha.svg" },
-  { name: "ProductPlan", fallback: "PP" },
-  { name: "Streamlit", logo: "https://cdn.simpleicons.org/streamlit" },
+  { name: "Excel", logo: "https://cdn.simpleicons.org/microsoftexcel" },
+  { name: "Postman", logo: "https://cdn.simpleicons.org/postman" },
   { name: "Python", logo: "https://cdn.simpleicons.org/python" },
-  { name: "Draw.io", logo: "https://cdn.simpleicons.org/diagramsdotnet" },
+  { name: "Streamlit", logo: "https://cdn.simpleicons.org/streamlit" },
+  { name: "ChatGPT", logo: "https://cdn.simpleicons.org/openai" },
+  { name: "Copilot", fallback: "AI" },
+  { name: "Claude", logo: "https://cdn.simpleicons.org/anthropic" },
 ];
 
 export const experienceGroups = [
@@ -119,72 +125,108 @@ export const experienceGroups = [
         id: "stream-pm",
         company: "Stream Systems",
         role: "Product Manager",
-        period: "2023–2026",
+        period: "Mar 2023 – Mar 2026",
         description:
-          "Led product strategy and roadmap execution for a cloud-based AI simulation platform used by mining operators to evaluate operational scenarios before execution.",
+          "Joined as the first structured PM for a B2B SaaS AI simulation platform with no established process and a 2,000+ ticket backlog. Built the PM operating model from the ground up — requirements templates, epic structure, prioritization criteria, release planning, and acceptance standards — while driving roadmap execution toward a production-ready launch.",
         products: [
-          {
-            name: "Simulation Product",
-            audience: "Mine planners and operations teams",
-            summary:
-              "Helped users build base cases and run what-if scenarios to evaluate operational plans before execution.",
-          },
-          {
-            name: "Scenario & Results Workflow",
-            audience: "Planning and operational stakeholders",
-            summary:
-              "Defined the user flow from baseline data, configuration, scenario setup, simulation run, and results review.",
-          },
           {
             name: "AI/ML Simulation Platform",
             audience: "Enterprise mining operators",
             summary:
-              "Supported a platform that used historical operational data to generate behavioural profiles and simulation inputs.",
+              "Owned platform strategy across data ingestion, machine learning, simulation, and analytics layers. Used historical operational data to generate behavioural profiles and simulation inputs for large-scale planning scenarios.",
+          },
+          {
+            name: "Scenario & Results Workflow",
+            audience: "Mine planners and operational stakeholders",
+            summary:
+              "Defined the end-to-end user flow from baseline data and configuration through scenario setup, simulation execution, and results review — enabling users to evaluate thousands of operational trade-offs without requiring modelling expertise.",
+          },
+          {
+            name: "AI-Accelerated Product Workflow",
+            audience: "Product and engineering teams",
+            summary:
+              "Integrated AI tools into the daily product cycle for rapid prototyping, problem statement sharpening, and documentation — saving an estimated 2–3 hours per day and accelerating delivery cycles.",
           },
         ],
         skills: [
           { name: "Product strategy", score: 9 },
           { name: "Roadmap prioritization", score: 9 },
+          { name: "PM process design", score: 10 },
           { name: "Customer discovery", score: 8 },
-          { name: "UX workflow design", score: 8 },
           { name: "Technical trade-off analysis", score: 8 },
           { name: "Stakeholder alignment", score: 9 },
         ],
       },
       {
-        id: "wenco-pm-po",
+        id: "wenco-pm",
         company: "Wenco International Mining Systems",
-        role: "Product Manager / Product Owner",
-        period: "2017–2023",
+        role: "Product Manager",
+        period: "Aug 2020 – Feb 2023",
         description:
-          "Owned product roadmaps and agile backlogs across enterprise fleet management products used by mining operations globally.",
+          "Owned the core product roadmap for the Wenco Fleet Management System — a platform of 15+ interconnected applications used by dispatchers, operators, maintenance crews, and management teams across 100+ mining operations worldwide. Sustained 8 minor releases and 1 major release per year across 4 engineering teams (~20+ engineers).",
         products: [
           {
             name: "Fleet Management System",
-            audience: "Dispatchers, operators, maintenance teams, and mine operations",
+            audience: "Dispatchers, operators, maintenance teams, and mine management",
             summary:
-              "Managed roadmap and backlog priorities for operational workflows used across active mine sites.",
+              "Synthesized feedback from 100+ global mining operations into scalable platform capabilities, balancing customer needs, operational constraints, and long-term product direction across a complex multi-application system.",
           },
           {
             name: "Web & Mobile Workflows",
             audience: "Field users and operational supervisors",
             summary:
-              "Expanded product experiences beyond dispatcher-centric tools into broader web and mobile workflows.",
+              "Expanded platform accessibility beyond dispatcher consoles into web and mobile workflows, increasing data visibility for field personnel and broadening the product's operational reach.",
           },
           {
-            name: "Platform Modernization Initiatives",
+            name: "Platform Reliability & Modernization",
             audience: "Engineering, product, and enterprise customers",
             summary:
-              "Balanced customer-facing features with technical debt, platform stability, and long-term product scalability.",
+              "Balanced feature roadmap with technical debt remediation, maintaining reliability for a real-time system where data latency directly impacted operational dispatch decisions and heavy equipment safety.",
+          },
+        ],
+        skills: [
+          { name: "Roadmap ownership", score: 9 },
+          { name: "Release planning", score: 9 },
+          { name: "Cross-team coordination", score: 9 },
+          { name: "Customer discovery", score: 8 },
+          { name: "PM mentorship", score: 8 },
+          { name: "Stakeholder reporting", score: 8 },
+        ],
+      },
+      {
+        id: "wenco-po",
+        company: "Wenco International Mining Systems",
+        role: "Product Owner",
+        period: "Apr 2018 – Aug 2020",
+        description:
+          "Owned backlog and sprint execution across up to 4 agile teams simultaneously — including a remote outsourced team in India. Reduced a 4,000+ ticket Jira backlog to under 500 actionable items within 6 months by implementing structured prioritization, backlog governance, and systematic ticket cleanup.",
+        products: [
+          {
+            name: "Backlog Transformation",
+            audience: "Engineering and product teams",
+            summary:
+              "Implemented value-based prioritization and backlog governance across 4 agile teams, cutting 4,000+ tickets to under 500 within 6 months and giving engineering stable, clear direction.",
+          },
+          {
+            name: "Sprint Execution & Delivery",
+            audience: "Multi-team delivery organization",
+            summary:
+              "Led sprint planning, refinement, reviews, and retrospectives. Applied velocity-based planning to improve sprint predictability and release scope accuracy across 8 releases per year.",
+          },
+          {
+            name: "UI/UX & Requirements",
+            audience: "Operational users in high-complexity environments",
+            summary:
+              "Translated complex operational requirements into structured user stories and Figma wireframes, reducing development ambiguity and defect leakage. Served as PO lead to align cross-team implementation decisions.",
           },
         ],
         skills: [
           { name: "Backlog management", score: 10 },
           { name: "Agile delivery", score: 9 },
           { name: "Requirements writing", score: 9 },
-          { name: "Release planning", score: 8 },
-          { name: "Customer problem framing", score: 8 },
-          { name: "Cross-team coordination", score: 9 },
+          { name: "Sprint facilitation", score: 9 },
+          { name: "UI/UX contribution", score: 7 },
+          { name: "Cross-team PO alignment", score: 8 },
         ],
       },
     ],
