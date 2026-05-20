@@ -4,14 +4,41 @@ export const contact = {
 };
 
 export const hero = {
-  eyebrow: "Senior Product Manager · Enterprise SaaS · Technical Platforms",
-  title: "I build product clarity for complex, data-driven platforms.",
+  eyebrow: "Product Builder Portfolio · Enterprise SaaS · Technical Platforms",
+  title: "I build products, prototypes, and systems that turn messy problems into usable experiences.",
   summary:
-    "I’m Leo Jiang, a product manager with 8+ years leading enterprise SaaS products, simulation workflows, operational platforms, and cross-functional delivery from discovery to release.",
-  positioning: "Technical Product Manager for complex operational platforms",
+    "I’m Leo Jiang, a product manager with 8+ years building enterprise SaaS, simulation workflows, operational platforms, and practical prototypes from discovery to release.",
+  positioning: "Product Builder with product strategy and technical execution range",
   bestFit:
-    "Best fit: platform PM, technical PM, senior product manager, or product owner for enterprise workflow products.",
+    "Best fit: platform PM, technical PM, senior product manager, or product owner who can lead product judgment and build-oriented experimentation.",
 };
+
+
+export const whatIBuild = [
+  {
+    title: "Enterprise Products",
+    detail: "Simulation platforms, operational workflows, roadmap systems, analytics, and decision-support tools for complex environments.",
+  },
+  {
+    title: "Builder Lab",
+    detail: "Side projects, prototypes, integrations, dashboards, and tools built to explore real problems quickly.",
+  },
+  {
+    title: "Games & Experiments",
+    detail: "Product-themed game concepts and interaction experiments that turn product thinking into playable systems.",
+  },
+  {
+    title: "Field Notes",
+    detail: "Travel, hobbies, and creative observations that sharpen how I think about people, systems, and design.",
+  },
+];
+
+export const labHighlights = [
+  "Sold-price tracker MVP for fast market signal checks.",
+  "Jira Service Management contact-flow integration concept.",
+  "Roadmap Runner game prototype for prioritization trade-off thinking.",
+  "CSV-to-dashboard and workflow visualization experiments.",
+];
 
 export const metrics = [
   { value: "8+", label: "years in product" },

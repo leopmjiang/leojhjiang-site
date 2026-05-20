@@ -20,8 +20,9 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <PrimaryLink href="#start-conversation">Start a Conversation</PrimaryLink>
-            <SecondaryLink href="#case-studies">View case studies</SecondaryLink>
+            <PrimaryLink href="#case-studies">View Product Work</PrimaryLink>
+            <SecondaryLink href="#builder-lab-preview">Explore Builder Lab</SecondaryLink>
+            <SecondaryLink href="#start-conversation">Start a Conversation</SecondaryLink>
           </div>
         </div>
 
