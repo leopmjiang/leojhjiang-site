@@ -17,14 +17,14 @@ export function SiteHeader() {
           <a href="#case-studies" className="transition hover:text-orange-300">
             Work
           </a>
+          <a href="#builder-lab-preview" className="transition hover:text-orange-300">
+            Builder Lab
+          </a>
           <a href="#experience" className="transition hover:text-orange-300">
             Experience
           </a>
-          <a href="#skills" className="transition hover:text-orange-300">
-            Skills
-          </a>
-          <a href="#toolbelt" className="transition hover:text-orange-300">
-            Tools
+          <a href="#field-notes" className="transition hover:text-orange-300">
+            Field Notes
           </a>
           <a
             href={contact.linkedin}

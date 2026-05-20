@@ -3,11 +3,11 @@ import { Section, SectionHeader } from "./ui";
 
 export function ToolbeltSection() {
   return (
-    <Section id="toolbelt">
+    <Section id="field-notes">
       <SectionHeader
-        eyebrow="Toolbelt"
-        title="Tools I use to move from ambiguity to execution."
-        subtitle="A practical mix of product planning, collaboration, analytics, workflow modelling, and prototyping tools."
+        eyebrow="Field notes"
+        title="Curiosity, tools, and experiments that shape how I build."
+        subtitle="From analytics tooling to lightweight prototypes, this is where ongoing experimentation supports better product judgment."
       />
 
       <div className="flex flex-wrap gap-3">

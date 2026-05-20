@@ -1,4 +1,4 @@
-import { proofPoints } from "@/data/portfolio";
+import { labHighlights, proofPoints } from "@/data/portfolio";
 import { Section } from "./ui";
 
 export function ProofSection() {
@@ -7,10 +7,10 @@ export function ProofSection() {
       <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
         <div className="lg:sticky lg:top-28">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-orange-300">
-            Why recruiters should keep reading
+            Why this portfolio is structured this way
           </p>
           <h2 className="mt-3 max-w-xl text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-            Not a generic PM. A product operator for technical, messy, high-stakes environments.
+            Product-builder range without losing recruiter clarity.
           </h2>
         </div>
 
@@ -27,6 +27,15 @@ export function ProofSection() {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="mt-8 rounded-3xl border border-white/10 bg-white/[0.04] p-6">
+        <h3 className="text-lg font-semibold text-white">Builder Lab preview</h3>
+        <ul className="mt-4 space-y-2 text-sm text-neutral-300">
+          {labHighlights.map((item) => (
+            <li key={item}>• {item}</li>
+          ))}
+        </ul>
       </div>
     </Section>
   );
