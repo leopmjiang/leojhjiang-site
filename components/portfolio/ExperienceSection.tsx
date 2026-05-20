@@ -38,7 +38,7 @@ export function ExperienceSection() {
       <SectionHeader
         eyebrow="Experience"
         title="Click a role to see the work, products, and skill profile behind it."
-        subtitle="Roles are grouped by product leadership, technical delivery, and other customer-facing experience so the story is easier to scan."
+        subtitle="Roles are grouped by product leadership and technical delivery — click any role to see the products, decisions, and skills behind it."
       />
 
       <div className="grid gap-5 xl:grid-cols-3">
